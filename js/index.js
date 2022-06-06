@@ -17,17 +17,15 @@ document.addEventListener("DOMContentLoaded", function () {
     const houses = "houses.json";
     const resHouse = await fetch(houses);
     dataHouse = await resHouse.json();
-    console.log(dataHouse);
 
     const apartments = "apartments.json";
     const resApartment = await fetch(apartments);
     dataApartment = await resApartment.json();
-    console.log(dataApartment);
 
     const persons = "persons.json";
     const resPerson = await fetch(persons);
     dataPerson = await resPerson.json();
-    console.log(dataPerson);
+
 
     createOptions();
   }
