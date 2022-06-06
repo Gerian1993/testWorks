@@ -26,7 +26,6 @@ document.addEventListener("DOMContentLoaded", function () {
     const resPerson = await fetch(persons);
     dataPerson = await resPerson.json();
 
-
     createOptions();
   }
   getData();
