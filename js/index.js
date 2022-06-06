@@ -116,9 +116,6 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   });
 
-
-
-
   const buttonUnlocked = () => {
     houseSelect.addEventListener("change", () => {
       button.disabled = true;
